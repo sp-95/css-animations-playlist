@@ -44,4 +44,21 @@ body {
 
 /*// ELEMENTS TO ANIMATE //*/
 
+.mario {
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  animation-name: drive;
+  animation-duration: 3s;
+}
+
 /*// KEYFRAMES //*/
+
+@keyframes drive {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(700px);
+  }
+}
